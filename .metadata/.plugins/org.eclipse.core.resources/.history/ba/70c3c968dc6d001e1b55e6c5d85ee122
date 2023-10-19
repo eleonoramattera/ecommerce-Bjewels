@@ -1,0 +1,19 @@
+
+# Configurazione del database MySQL
+spring.datasource.url=jdbc:mysql://localhost:3306/b_jewels
+spring.datasource.username=root
+spring.datasource.password=root
+spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+
+# Abilita Hibernate e specifica il dialetto per MySQL
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQLDialect
+
+# Specifica il nome dell'unità di persistenza JPA
+spring.jpa.properties.javax.persistence.schema-generation.database.action=none
+
+# Abilita il logging SQL
+spring.jpa.show-sql=true
+
+
+
