@@ -1,4 +1,4 @@
-package com.example.RegisterLoginLogout.security.controller;
+ package com.bjewels.security.controller;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.CrossOrigin;
@@ -9,10 +9,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.example.RegisterLoginLogout.security.payload.JWTAuthResponse;
-import com.example.RegisterLoginLogout.security.payload.LoginDto;
-import com.example.RegisterLoginLogout.security.payload.RegisterDto;
-import com.example.RegisterLoginLogout.security.service.AuthService;
+import com.bjewels.security.payload.JWTAuthResponse;
+import com.bjewels.security.payload.LoginDto;
+import com.bjewels.security.payload.RegisterDto;
+import com.bjewels.security.service.AuthService;
+
+
 
 
 

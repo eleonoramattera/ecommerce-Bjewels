@@ -1,4 +1,4 @@
-package com.example.RegisterLoginLogout.security.controller;
+package com.bjewels.security.controller;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
